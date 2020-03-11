@@ -3,13 +3,13 @@
 Verificar se configuração está correta
 
 ```shell
-	nginx -t
+nginx -t
 ```
 
 Restartar o serviço do Nginx
 
 ```shell
-	systemctl restart nginx
+systemctl restart nginx
 ```
 
 # Criando uma configuração simples
@@ -17,7 +17,7 @@ Restartar o serviço do Nginx
 Em */etc/nginx/sites-available* crie um arquivo com o nome do domínio
 
 ```shell
-	nano example.com
+nano example.com
 ```
 
 Escreva a seguinte configuração. Você pode adicionar subdominios em outros arquivos ou no mesmo.
