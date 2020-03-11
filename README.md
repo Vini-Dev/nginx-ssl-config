@@ -66,22 +66,22 @@ ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.co
 
 Adicionando o repositório
 ```shell
-	add-apt-repository ppa:certbot/certbot
+add-apt-repository ppa:certbot/certbot
 ```
 Atualizando os pacotes
 ```shell
-	apt update
+apt update
 ```
 
 Pacote Nginx do Certbot
 ```shell
-	apt update
+apt update
 ```
 
 # Instalando o certificado com Let's Encrypt
 
 ```shell
-	certbot --nginx -d example.com
+certbot --nginx -d example.com
 ```
 
 Selecione criar um novo certificado e depois selecione a opção de redirecionar todo o tráfego para https (2)
